@@ -53,7 +53,8 @@ h2{font-size:clamp(36px,4.8vw,54px);font-weight:700;margin-bottom:30px;text-tran
 
 .hero{padding-block:72px 0}
 .hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:52px;align-items:center}
-.hero h1{font-size:clamp(46px,6.6vw,88px);font-weight:700;text-transform:uppercase;line-height:.98}
+.kicker{font-family:var(--display);font-weight:700;font-size:clamp(30px,4.4vw,56px);line-height:1;letter-spacing:.06em;text-transform:uppercase;color:var(--cyan);text-shadow:0 0 22px rgba(143,227,255,.6);margin:6px 0 10px;padding-bottom:10px;border-bottom:2px solid var(--blue);display:inline-block}
+.hero h1{font-size:clamp(44px,6.2vw,82px);font-weight:700;text-transform:uppercase;line-height:.98}
 .hero h1 span{color:var(--blue);text-shadow:0 0 28px rgba(46,168,255,.55)}
 .lede{font-size:19px;color:var(--cyan);max-width:56ch;margin:20px 0 28px}
 .tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;max-width:760px;margin-bottom:30px}
@@ -275,7 +276,8 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-betw
 <section class="hero" id="top">
   <div class="wrap">
     <div>
-      <p class="eyebrow">One-day workshop · IIT Roorkee</p>
+      <p class="eyebrow">IIT Roorkee · 27 October 2026 · Free registration</p>
+      <div class="kicker">One-Day Workshop</div>
       <h1>Cyber Security Challenges in <span>Distribution Power Networks</span></h1>
       <p class="lede">Control, protection and cybersecurity of smart active distribution networks — expert lectures and a hands-on digital-substation demonstration at the PSSPL Laboratory.</p>
       <div class="tiles">
@@ -285,7 +287,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-betw
         <div class="tile hud"><div class="k">Countdown</div><div class="v mono" id="cd">--d --h --m</div></div>
       </div>
       <div class="cta">
-        <a class="btn pulse" href="#register">Register free</a>
+        <a class="btn pulse" href="register.html">Register free</a>
         <a class="btn ghost" href="#schedule">View schedule</a>
       </div>
     </div>
@@ -525,8 +527,8 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-betw
         <li>Live demonstration of the developed intrusion-detection system</li>
         <li>High tea and lunch included</li>
       </ul>
-      <a class="btn pulse" href="REGISTRATION_LINK" id="register-btn">Register now — free</a>
-      <div class="ph">↑ Replace REGISTRATION_LINK with the Google Form / registration URL</div>
+      <a class="btn pulse" href="register.html" id="register-btn">Register now — free</a>
+      <div class="ph">Takes about a minute · instant email acknowledgement</div>
     </div>
   </div>
 </section>
